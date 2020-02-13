@@ -5,6 +5,7 @@ cd "folder_name"
 git touch "filename.ext"		- create a new file
 ls
 git status				- check newly added or modified files
+git diff "filename.ext"			- compare file with previous version (before add)
 git add "filename.ext"			- add perticular file to commit
 git add * 				- add all files to commit
 git status
@@ -12,4 +13,3 @@ git commit -m "Desc_for_commit"		- commit the changes
 git status
 git log					- to view the log of all commit
 git push -u origin master		- push(upload) our code to Git Repository
-
