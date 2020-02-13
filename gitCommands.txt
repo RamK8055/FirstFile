@@ -13,4 +13,3 @@ git status
 git log					- to view the log of all commit
 git push -u origin master		- push(upload) our code to Git Repository
 
-//changes made to test commit
